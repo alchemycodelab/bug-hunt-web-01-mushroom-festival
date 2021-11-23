@@ -6,7 +6,6 @@ const friendsEl = document.querySelector('.friends');
 const mushroomsEl = document.querySelectorAll('.mushrooms');
 const addMushroomButton = document.getElementById('add-mushroom');
 const addFriendButton = document.getElementById('add-friend');
-// initialize state
 
 let mushroomCount = 3;
 
