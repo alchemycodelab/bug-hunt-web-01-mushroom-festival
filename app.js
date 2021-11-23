@@ -56,8 +56,6 @@ function displayFriends() {
 
 
 function displayMushrooms() { 
-    mushroomsEl.textContent = '';
-
     for (let i = 0; i < mushroomCount; i++) {
         const mushroomEl = renderMushroom();
 
